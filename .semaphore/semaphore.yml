@@ -1,5 +1,5 @@
 version: v1.0
-name: Initial Pipeline
+name: Build and Test
 agent:
   machine:
     type: e1-standard-2
@@ -39,3 +39,8 @@ blocks:
           commands:
             - pip install flake8
             - flake8 martor_demo/ --max-line-length=127
+promotions:
+  - name: Dockerize
+    pipeline_file: pipeline_2.yml
+    auto_promote:
+      when: branch = 'master' AND result = 'passed'
