@@ -1,0 +1,51 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyCompatibilityInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ourVersions">
+        <value>
+          <list size="1">
+            <item index="0" class="java.lang.String" itemvalue="3.6" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="2">
+            <item index="0" class="java.lang.String" itemvalue="pymongo" />
+            <item index="1" class="java.lang.String" itemvalue="cryptography" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="Exception.message" />
+          <option value="csweep.models.ProcessedRecords.*" />
+          <option value="csweep.engine.data_classes.csweep_rules.CSweepRules.enabled" />
+          <option value="csweep.engine.data_classes.csweep_rules.CSweepRules.expiry" />
+          <option value="csweep.engine.data_classes.csweep_rules.CSweepRules.expiry_date" />
+          <option value="csweep.engine.data_classes.csweep_rules.CSweepRules.precedence" />
+          <option value="csweep.engine.data_classes.csweep_rules.CSweepRules.moderator_mode" />
+          <option value="csweep.engine.data_classes.records.Record.rule_list" />
+          <option value="csweep.engine.data_classes.csweep_rules.CSweepRules.rule_name" />
+          <option value="csweep.engine.data_classes.csweep_rules.CSweepRules.search_criteria" />
+          <option value="csweep.engine.data_classes.csweep_rules.CSweepRules.record_type" />
+          <option value="csweep.engine.data_classes.csweep_rules.CSweepRules.action_sequence" />
+          <option value="csweep.engine.data_classes.records.Record.source" />
+          <option value="csweep.engine.data_classes.records.Record.TaskParentID" />
+          <option value="csweep.engine.data_classes.records.Record.parent_rnid" />
+          <option value="csweep.engine.data_classes.records.Record.Status" />
+          <option value="csweep.engine.data_classes.records.Record.statusid" />
+          <option value="csweep.engine.utils.common.*" />
+          <option value="csweep.models.Portfolios.*" />
+          <option value="csweep.models.ApplicationVersion.objects" />
+          <option value="list.split" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
